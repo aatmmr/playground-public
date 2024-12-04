@@ -1,0 +1,13 @@
+name: Path Trigger Demo
+
+on:
+  push:
+    paths: 
+      - path-trigger.md
+
+jobs:
+  dummy:
+    name: Dummy Log
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is a dummy"
