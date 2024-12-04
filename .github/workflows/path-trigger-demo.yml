@@ -4,6 +4,7 @@ on:
   push:
     paths: 
       - path-trigger.md
+      - demo/path-trigger.md
 
 jobs:
   dummy:
