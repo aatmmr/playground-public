@@ -1,0 +1,16 @@
+name: PR Checks Demo
+
+on:
+  pull_request:
+    branches: 
+      - main
+    paths:
+      - pr-checks-demo-md
+
+jobs:
+  do-work:
+    name: Do Some CI Work
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 1000
+      - run: echo "Working hard..."
