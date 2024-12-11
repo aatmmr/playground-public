@@ -12,5 +12,9 @@ jobs:
     name: Do Some CI Work
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 1000
-      - run: echo "Working hard..."
+      - run: |
+          sleep 10
+          echo "Working hard..."
+          echo "..and still failing."
+          exit 1
+          
