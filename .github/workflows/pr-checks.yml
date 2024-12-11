@@ -5,7 +5,7 @@ on:
     branches: 
       - main
     paths:
-      - pr-checks-demo-md
+      - pr-checks-demo.md
 
 jobs:
   do-work:
